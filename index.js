@@ -2,6 +2,7 @@ const titulo = document.querySelector("h1");
 titulo.innerText = "Productos";
 
 const prod = [];
+function bucle(){
 for (let i = 1; i < 10; i++) {
 
     const card = `
@@ -10,12 +11,13 @@ for (let i = 1; i < 10; i++) {
             <div class="card-body">
                     <h5 class="card-title">Producto ${i}</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary bg-secondary border-0">Agregar</a>
+                    <a href="#" class="btn btn-primary bg-secondary border-0">Ver más</a>
             </div>
         </div>`
 
     prod.push(card);
 
 }
-
+}
+bucle();
 document.querySelector('section').innerHTML = prod.join().replaceAll(",", "");
