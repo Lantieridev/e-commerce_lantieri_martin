@@ -1,7 +1,7 @@
 let categorias = [
-    {titulo : "Camisetas", link : "/camisetas"}, 
-    {titulo : "Pantalones", link : "/pantalones"},
-    {titulo : "Medias", link : "/medias"},
+    {titulo : "Camisetas", link : "#"}, 
+    {titulo : "Pantalones", link : "#"},
+    {titulo : "Medias", link : "#"},
 ];
 
 let menu = [];  

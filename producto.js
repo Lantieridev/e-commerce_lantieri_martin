@@ -21,7 +21,8 @@ const data = [
     type: "Home",
     price: "$89.99",
     description: "Official FC Barcelona jersey for the 2020/21 season with traditional blue and red colors.",
-    image: ""
+    image: "",
+    category: "laLiga"
   },
   {
     id: 2,
@@ -32,7 +33,8 @@ const data = [
     type: "Away",
     price: "$84.99",
     description: "Away jersey for the 2019/20 season in black with gold accents.",
-    image: ""
+    image: "",
+    category: "Premier League"
   },
   {
     id: 3,
@@ -43,7 +45,8 @@ const data = [
     type: "Home",
     price: "$79.99",
     description: "Home jersey of River Plate 2021, featuring the classic red diagonal stripe across the chest.",
-    image: ""
+    image: "",
+    category: "Argentine Primera División"
   },
   {
     id: 4,
@@ -54,7 +57,8 @@ const data = [
     type: "Home",
     price: "$94.99",
     description: "Juventus home jersey for the 2022/23 season, with the iconic black and white stripes.",
-    image: ""
+    image: "",
+    category: "Serie A"
   },
   {
     id: 5,
@@ -65,7 +69,8 @@ const data = [
     type: "Home",
     price: "$82.99",
     description: "Home jersey of Boca Juniors 2021 with the traditional blue and gold colors.",
-    image: ""
+    image: "",
+    category: "Argentine Primera División"
   },
   {
     id: 6,
@@ -76,7 +81,8 @@ const data = [
     type: "Away",
     price: "$90.00",
     description: "Away jersey for the 2020/21 season in pink with white accents.",
-    image: ""
+    image: "",
+    category: "laLiga"
   },
   {
     id: 7,
@@ -87,7 +93,8 @@ const data = [
     type: "Home",
     price: "$85.00",
     description: "Home jersey of Bayern Munich 2019/20 with the traditional red color.",
-    image: ""
+    image: "",
+    category: "Bundesliga"
   },
   {
     id: 8,
@@ -98,7 +105,8 @@ const data = [
     type: "Home",
     price: "$99.99",
     description: "PSG official jersey for the 2021/22 season, in navy blue with red details.",
-    image: ""
+    image: "",
+    category: "Ligue 1"
   },
   {
     id: 9,
@@ -109,7 +117,8 @@ const data = [
     type: "Home",
     price: "$87.50",
     description: "AC Milan home jersey with the iconic red and black stripes.",
-    image: ""
+    image: "",
+    category: "Serie A"
   },
   {
     id: 10,
@@ -120,7 +129,8 @@ const data = [
     type: "Away",
     price: "$89.50",
     description: "Inter Milan away jersey with a modern design in white and black.",
-    image: ""
+    image: "",
+    category: "Serie A"
   },
   {
     id: 11,
@@ -131,7 +141,8 @@ const data = [
     type: "Home",
     price: "$92.00",
     description: "Chelsea home jersey with the classic royal blue color.",
-    image: ""
+    image: "",
+    category: "Premier League"
   },
   {
     id: 12,
@@ -142,9 +153,11 @@ const data = [
     type: "Home",
     price: "$93.00",
     description: "Atlético Madrid home jersey for the 2022/23 season with red and white stripes.",
-    image: "./img/casaca river.webp"
+    image: "./img/casaca river.webp",
+    category: "laLiga"
   }
 ];
+
 
 const producto = data.find((prod) => prod.id === id);
 
